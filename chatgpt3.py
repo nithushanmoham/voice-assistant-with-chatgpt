@@ -3,7 +3,7 @@ import openai  # opeanai package
 
 while True:
     def chatgptOutput(inputData):
-        OPENAI_API_KEY = "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"
+        OPENAI_API_KEY = ""
         openai.api_key = OPENAI_API_KEY
         response = openai.Completion.create(
             model="text-davinci-003",
